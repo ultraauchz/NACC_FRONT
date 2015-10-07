@@ -62,7 +62,7 @@
 		}
 
 		#sectorHeader {
-			background: url(media/images/background2.png) no-repeat center center fixed; 
+			background: url(media/images/background.png) no-repeat center center fixed; 
 			  -webkit-background-size: cover;
 			  -moz-background-size: cover;
 			  -o-background-size: cover;

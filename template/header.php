@@ -47,7 +47,7 @@
 					</div>
 				</div>
 			</div>
-			<div class='col-md-12' style='background:#2F2E60;'>
+			<div class='col-md-12' style='background:#7772C4;'>
 				<div class='col-md-10 col-md-offset-1'>
 					<ul id='menu' class="nav navbar-nav navbar-left">
             			<li><a href="home.php">หน้าแรก</a></li>

@@ -1,3 +1,8 @@
+#menu>li>ul.dropdown-menu {
+    margin-top: 0px;
+    background: #5C39A1;
+}
+
 .div_btn_search {
 	margin: 10px 0px -10px 0px;
 }
