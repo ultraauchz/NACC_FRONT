@@ -1,0 +1,154 @@
+.div_btn_search {
+	margin: 10px 0px -10px 0px;
+}
+
+.div_index_search {
+	margin-top: 5px;
+}
+
+.input-group-addon {
+    padding: 6px 12px !important;
+}
+
+.input-group[class*=col-] {
+    padding-left: 15px !important;
+}
+
+.form-control[readonly] {
+	color: #34495e !important;
+}
+
+/*css datepicker*/
+.datepicker-dropdown {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.table-condensed {
+	width: 100%;
+}
+/*css datepicker*/
+
+.btn-blue {
+	background: #163C6D;
+    color: #fff;
+}
+
+.btn-view, .btn-edit, .btn-delete{
+    min-width: 25px !important;
+}
+
+.btn-view:before {
+    display: inline-block;
+    content: "\f0f6";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #163C6D;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+
+.btn-edit:before {
+    display: inline-block;
+    content: "\f044";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #3498db;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+
+.btn-delete:before {
+    display: inline-block;
+    content: "\f1f8";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #AE0000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+
+.control-label, .checkbox-inline {
+	font-size: 22px;
+}
+
+.text-red {
+	color:red;
+}
+
+
+.pagination a {
+    display: inline-block;
+    margin-right: -3px;
+    word-spacing: normal;
+    vertical-align: middle;
+    margin: 0;
+    color: #fff;
+    word-spacing: -.5px;
+    background: #d6dbdf;
+    border-radius: 6px;
+
+    min-width: 41px;
+    min-height: 41px;
+    padding: 12px 10px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-left: 2px solid #e4e7ea;
+    outline: none;
+    -webkit-transition: .25s ease-out;
+    transition: .25s ease-out;
+}
+
+.pagination span.current {
+	display: inline-block;
+    color: #fff;
+    background-color: #1abc9c;
+    border-radius: 6px;
+
+    min-width: 41px;
+    min-height: 41px;
+    padding: 12px 10px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-left: 2px solid #34B299;
+    outline: none;
+    cursor: not-allowed;
+}
+
+.pagination span.disabled {
+	display: inline-block;
+    color: #B4B4B4;
+    background-color: rgba(214, 219, 223, 0.37);
+    border-radius: 6px;
+
+    min-width: 41px;
+    min-height: 41px;
+    padding: 12px 10px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-left: 2px solid #e4e7ea;
+    cursor: not-allowed;
+}
+
+.pagination a:hover {
+	color:#34495e;
+	background-color: rgba(39, 168, 142, 0.52);
+	border-left: 2px solid rgba(4, 98, 79, 0.3);
+}
