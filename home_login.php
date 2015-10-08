@@ -1,5 +1,5 @@
 <?php
-include ('template/header.php');
+include ('template/header_login.php');
 ?>
 <script src="media/Highcharts/js/highcharts.js"></script>
 <script src="media/Highcharts/js/modules/exporting.js"></script>

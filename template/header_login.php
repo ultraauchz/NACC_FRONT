@@ -51,11 +51,14 @@
 				<div class='col-md-10 col-md-offset-1'>
 					<ul id='menu' class="nav navbar-nav navbar-left">
             			<li><a href="home.php">หน้าแรก</a></li>
-            			<li><a href="member.php?q=form">ลงทะเบียน</a></li>            			
-            			<li><a href="login.php">เข้าสู่ระบบ</a></li>
+            			<li><a href="plan.php?q=list">ข้อมูลแผนประจำปี</a></li>      			
             			<li><a href="standard_price.php">ข้อมูล ราคากลาง</a></li>            			                            
-                        <li><a href="blacklist.php?q=list">ข้อมูล Black List</a></li>                                  		            			  
+                        <li><a href="blacklist.php?q=list">ข้อมูล Black List</a></li>                                                                         		            			 
            			</ul>
+           			<span class='pull-right' style='margin-top:5px; color:#fff;'>
+                        <span style='margin-right:20px;'>เจ้าหน้าที่ดูแลระบบ</span>
+                        <a href='index.php' class='btn btn-danger'>ออกจากระบบ</a>
+                    </span>
 				</div>
 			</div>
 		</div> 

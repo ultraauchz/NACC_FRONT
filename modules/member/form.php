@@ -2,14 +2,14 @@
 	<div class='col-md-12'>
 		<div class='col-md-10 col-md-offset-1'>
 			<div style='display:inline-block; width:100%; min-height:750px; background:#fff; padding:30px;'>
-				<h4 style='margin:0;'>ข้อมูลการสมัครขอใช้บริการ เพิ่ม/แก้ไข</h4>
+				<h4 style='margin:0;'>ลงทะเบียนขอใช้บริการ</h4>
 				<div class="row">
 					<form class="form-horizontal" action="#" method="post" enctype="multipart/form-data">
 
 						<!-- ข้อมูลคู่สัญญา -->
 						<p></p>
 						<div class="form-group">
-						    <label class="col-sm-3 control-label">ประเภทหน่วยงาน : <span class="text-red">*</span></label>
+						    <label class="col-sm-3 control-label">กลุ่มผู้ใช้ : <span class="text-red">*</span></label>
 						    <div class="col-sm-5">
 						    	<select class="form-control">
 						    		<option value="">-- กรุณาระบุ --</option>
@@ -19,6 +19,19 @@
 						    	</select>
 						    </div>
 						</div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">ประเภทหน่วยงาน : <span class="text-red">*</span></label>
+                            <div class="col-sm-4">
+                                    <select class="form-control">
+                                    <option value="">-- กรุณาระบุ --</option>
+                                    <option value="1">บุคคลทั่วไป</option>
+                                    <option value="2">ห้างหุ้นส่วนจำกัด</option>
+                                    <option value="2">บริษัท จำกัด</option>
+                                    <option value="2">บริษัท จำกัด (มหาชน)</option>
+                                </select>
+                            </div>
+                        </div>
 
 						<div class="form-group">
 						    <label class="col-sm-3 control-label">ชื่อหน่วยงาน : <span class="text-red">*</span></label>
@@ -91,7 +104,7 @@
 						</div>
 
 						<div class="col-sm-12 text-center">
-							<button type="button" class="btn btn-primary" >บันทึก</button>
+							<a href="member.php?q=success" class="btn btn-primary">บันทึก</a>
 							<a href="member.php" class="btn btn-default">ย้อนกลับ</a>
 						</div>
 
